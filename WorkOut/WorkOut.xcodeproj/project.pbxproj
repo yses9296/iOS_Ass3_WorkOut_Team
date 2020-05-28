@@ -15,8 +15,10 @@
 		504E7D81247FDFBE002DA407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504E7D7F247FDFBE002DA407 /* LaunchScreen.storyboard */; };
 		504E7D8E247FE44B002DA407 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D8D247FE44B002DA407 /* ExerciseViewController.swift */; };
 		504E7D90247FF2BC002DA407 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D8F247FF2BC002DA407 /* DietViewController.swift */; };
-		504E7D92247FF351002DA407 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D91247FF351002DA407 /* HomeViewController.swift */; };
 		504E7D94247FF3F3002DA407 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D93247FF3F3002DA407 /* RegisterViewController.swift */; };
+		504E7D9624800343002DA407 /* DietListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D9524800343002DA407 /* DietListTableViewController.swift */; };
+		504E7D98248003DA002DA407 /* DietDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D97248003DA002DA407 /* DietDetailViewController.swift */; };
+		504E7D9A24800406002DA407 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E7D9924800406002DA407 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +32,10 @@
 		504E7D82247FDFBE002DA407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504E7D8D247FE44B002DA407 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		504E7D8F247FF2BC002DA407 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
-		504E7D91247FF351002DA407 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		504E7D93247FF3F3002DA407 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		504E7D9524800343002DA407 /* DietListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietListTableViewController.swift; sourceTree = "<group>"; };
+		504E7D97248003DA002DA407 /* DietDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDetailViewController.swift; sourceTree = "<group>"; };
+		504E7D9924800406002DA407 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +72,10 @@
 				504E7D76247FDFAE002DA407 /* SceneDelegate.swift */,
 				504E7D78247FDFAE002DA407 /* ViewController.swift */,
 				504E7D7A247FDFAE002DA407 /* Main.storyboard */,
+				504E7D9924800406002DA407 /* SignInViewController.swift */,
+				504E7D97248003DA002DA407 /* DietDetailViewController.swift */,
+				504E7D9524800343002DA407 /* DietListTableViewController.swift */,
 				504E7D93247FF3F3002DA407 /* RegisterViewController.swift */,
-				504E7D91247FF351002DA407 /* HomeViewController.swift */,
 				504E7D8F247FF2BC002DA407 /* DietViewController.swift */,
 				504E7D8D247FE44B002DA407 /* ExerciseViewController.swift */,
 				504E7D7D247FDFBE002DA407 /* Assets.xcassets */,
@@ -151,12 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				504E7D79247FDFAE002DA407 /* ViewController.swift in Sources */,
+				504E7D98248003DA002DA407 /* DietDetailViewController.swift in Sources */,
 				504E7D75247FDFAE002DA407 /* AppDelegate.swift in Sources */,
 				504E7D94247FF3F3002DA407 /* RegisterViewController.swift in Sources */,
 				504E7D77247FDFAE002DA407 /* SceneDelegate.swift in Sources */,
 				504E7D8E247FE44B002DA407 /* ExerciseViewController.swift in Sources */,
 				504E7D90247FF2BC002DA407 /* DietViewController.swift in Sources */,
-				504E7D92247FF351002DA407 /* HomeViewController.swift in Sources */,
+				504E7D9A24800406002DA407 /* SignInViewController.swift in Sources */,
+				504E7D9624800343002DA407 /* DietListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
